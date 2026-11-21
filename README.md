@@ -64,6 +64,18 @@ const mughira = {
 
 ### 📊 Numbers that make me look busy
 
+<!--YEAR_STATS:START-->
+<p align="center">
+  <img src="https://img.shields.io/badge/2026_contributions-1,090-36BCF7?style=for-the-badge&logo=github" alt="2026 contributions" />
+  <img src="https://img.shields.io/badge/in_private_repos-1,051-7aa2f7?style=for-the-badge&logo=lock" alt="private contributions" />
+</p>
+<p align="center"><i>1,051 of the 1,090 are in private client repos. Trust me bro. 🤝</i></p>
+<!--YEAR_STATS:END-->
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mughira0&theme=tokyo-night&hide_border=true&area=true" alt="Activity graph" />
+</p>
+
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=mughira0&show_icons=true&hide_border=true&theme=tokyonight&count_private=true" alt="GitHub stats" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mughira0&layout=compact&hide_border=true&theme=tokyonight" alt="Top languages" />
