@@ -14,30 +14,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch this year's contributions
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          YEAR=$(date -u +%Y)
-          DATA=$(gh api graphql -f query="query{user(login:\"${{ github.repository_owner }}\"){contributionsCollection(from:\"${YEAR}-01-01T00:00:00Z\",to:\"${YEAR}-12-31T23:59:59Z\"){contributionCalendar{totalContributions} restrictedContributionsCount}}}")
-          TOTAL=$(echo "$DATA" | jq '.data.user.contributionsCollection.contributionCalendar.totalContributions')
-          PRIV=$(echo "$DATA" | jq '.data.user.contributionsCollection.restrictedContributionsCount')
-          fmt() { echo "$1" | sed -e ':a' -e 's/\B[0-9]\{3\}\>/,&/' -e 'ta'; }
-          T=$(fmt "$TOTAL"); P=$(fmt "$PRIV")
-          cat > block.md <<EOF
-          <!--YEAR_STATS:START-->
-          <p align="center">
-            <img src="https://img.shields.io/badge/${YEAR}_contributions-${T}-36BCF7?style=for-the-badge&logo=github" alt="${YEAR} contributions" />
-            <img src="https://img.shields.io/badge/in_private_repos-${P}-7aa2f7?style=for-the-badge&logo=lock" alt="private contributions" />
-          </p>
-          <p align="center"><i>${P} of the ${T} are in private client repos. Trust me bro. 🤝</i></p>
-          <!--YEAR_STATS:END-->
-          EOF
-          sed -i 's/^          //' block.md
-          awk 'BEGIN{while((getline l < "block.md")>0) b=b l "\n"} /<!--YEAR_STATS:START-->/{printf "%s", b; skip=1; next} /<!--YEAR_STATS:END-->/{skip=0; next} !skip' README.md > README.new
-          mv README.new README.md
-          rm block.md
-
       - name: Build this-year stats card
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -48,5 +24,5 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md assets/year-stats.svg
+          git add assets/year-stats.svg
           git diff --cached --quiet || (git commit -m "Update yearly stats" && git push)

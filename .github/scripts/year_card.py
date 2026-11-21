@@ -66,7 +66,7 @@ rows = [
     ("Total contributions", fmt(cal["totalContributions"])),
     ("Private contributions", fmt(c["restrictedContributionsCount"])),
     ("Public commits", fmt(c["totalCommitContributions"])),
-    ("Pull requests", fmt(c["totalPullRequestContributions"])),
+    ("Public PRs", fmt(c["totalPullRequestContributions"])),
     ("Active days", f"{active} / {len(counts)}"),
     ("Current streak", f"{current} days"),
     ("Longest streak", f"{longest} days"),
