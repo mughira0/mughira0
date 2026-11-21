@@ -13,7 +13,8 @@
 const mughira = {
   role: "Full-stack Engineer @ Lato",
   location: "Karachi",
-  stack: ["React", "Next.js", "TypeScript", "Node.js", "NestJS", "Express", "PostgreSQL", "MongoDB", "Tailwind", "Rust 🦀"],
+  stack: ["React", "Next.js", "TypeScript", "Node.js", "NestJS", "Express", "PostgreSQL", "MongoDB", "Tailwind"],
+  crush: "Rust 🦀 (it's complicated, the borrow checker has trust issues)",
   currentlyBuilding: "web apps that survive contact with real users",
   superpower: "reading the error message (yes, the whole thing)",
   weakness: "naming variables. `data2` is a cry for help",
@@ -34,7 +35,7 @@ const mughira = {
 ### 🛠️ Stuff I actually use
 
 <p>
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,nestjs,express,rust,tailwind,astro,mongodb,postgres,prisma,git,github,vercel,docker,vscode" alt="tech stack" />
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,nestjs,express,tailwind,astro,mongodb,postgres,prisma,git,github,vercel,docker,vscode" alt="tech stack" />
 </p>
 
 ### 🚀 What I've been shipping
