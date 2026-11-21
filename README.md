@@ -35,8 +35,19 @@ const mughira = {
 ### 🛠️ Stuff I actually use
 
 <p>
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,nestjs,express,tailwind,astro,mongodb,postgres,prisma,git,github,vercel,docker,vscode" alt="tech stack" />
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,nestjs,express,tailwind,astro,mongodb,postgres,prisma,git,github,vscode" alt="tech stack" />
 </p>
+
+### ☁️ Where my code goes to live (and occasionally die)
+
+<p>
+  <img src="https://skillicons.dev/icons?i=aws,cloudflare,vercel,netlify,linux,nginx,docker" alt="deployment stack" />
+</p>
+
+- **AWS**: for when the client says "enterprise" and the bill says "surprise"
+- **Cloudflare**: DNS, Pages & Workers. Also my answer to "why is the site down?" (it's DNS. It's always DNS.)
+- **VPS + Nginx + PM2**: `ssh root@prod` and a little prayer
+- **Vercel / Netlify**: `git push` and pretend I configured something
 
 ### 🚀 What I've been shipping
 
