@@ -13,7 +13,7 @@
 const mughira = {
   role: "Full-stack Engineer @ Lato",
   location: "Karachi",
-  stack: ["React", "Next.js", "TypeScript", "Node.js", "NestJS", "Express", "PostgreSQL", "MongoDB", "Tailwind"],
+  stack: ["React", "Next.js", "TypeScript", "Node.js", "NestJS", "Express", "PostgreSQL", "MongoDB", "Tailwind", "Rust 🦀"],
   currentlyBuilding: "web apps that survive contact with real users",
   superpower: "reading the error message (yes, the whole thing)",
   weakness: "naming variables. `data2` is a cry for help",
@@ -28,12 +28,13 @@ const mughira = {
 - ✅ Fixed a prod bug by deleting `node_modules`. Felt nothing. Did it again.
 - ✅ Wrote a 40-line comment explaining a 1-line hack
 - ✅ Knows that `// TODO: refactor later` is a lifestyle, not a plan
+- ✅ Rewrote it in Rust. Yes, actually. The borrow checker and I are on speaking terms now.
 - ⏳ Still waiting for "temporary fix" from 2023 to be replaced
 
 ### 🛠️ Stuff I actually use
 
 <p>
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,nestjs,express,tailwind,astro,mongodb,postgres,prisma,git,github,vercel,docker,vscode" alt="tech stack" />
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,nestjs,express,rust,tailwind,astro,mongodb,postgres,prisma,git,github,vercel,docker,vscode" alt="tech stack" />
 </p>
 
 ### 🚀 What I've been shipping
@@ -43,6 +44,7 @@ const mughira = {
 | 🧩 **Healthcare platforms** | Care-provider web apps, admin dashboards & marketing sites |
 | 💸 **Funding platform** | API + admin panel for a fundraising product |
 | ⚡ **Client portals** | Multi-phase portal / admin / backend builds for clients |
+| 🦀 [**dupgard**](https://github.com/mughira0/dupgard) | File finder with a Rust backend, because life's too short for slow file scans |
 | 🧱 [**nextjs-template**](https://github.com/mughira0/nextjs-template) | My Next.js starter so I stop rewriting the same boilerplate |
 | 🧱 [**node-express-template**](https://github.com/mughira0/node-express-template) | Same idea, backend edition. Typed, structured, boring (good) |
 
