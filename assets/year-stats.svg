@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="210" viewBox="0 0 495 210">
+<style>
+.t{font:600 18px 'Segoe UI',Ubuntu,Sans-Serif;fill:#70a5fd}
+.l{font:600 13px 'Segoe UI',Ubuntu,Sans-Serif;fill:#38bdae}
+.v{font:700 13px 'Segoe UI',Ubuntu,Sans-Serif;fill:#c0caf5}
+.s{font:italic 11px 'Segoe UI',Ubuntu,Sans-Serif;fill:#565f89}
+</style>
+<rect width="495" height="210" rx="6" fill="#1a1b27"/>
+<text x="25" y="36" class="t">Mughira's 2026 Stats ⚡</text>
+<text x="25" y="72" class="l">Total contributions:</text>
+<text x="240" y="72" class="v" text-anchor="end">1,091</text>
+<text x="25" y="102" class="l">Private contributions:</text>
+<text x="240" y="102" class="v" text-anchor="end">1,051</text>
+<text x="25" y="132" class="l">Public commits:</text>
+<text x="240" y="132" class="v" text-anchor="end">32</text>
+<text x="25" y="162" class="l">Pull requests:</text>
+<text x="240" y="162" class="v" text-anchor="end">1</text>
+<text x="260" y="72" class="l">Active days:</text>
+<text x="475" y="72" class="v" text-anchor="end">144 / 325</text>
+<text x="260" y="102" class="l">Current streak:</text>
+<text x="475" y="102" class="v" text-anchor="end">5 days</text>
+<text x="260" y="132" class="l">Longest streak:</text>
+<text x="475" y="132" class="v" text-anchor="end">16 days</text>
+<text x="260" y="162" class="l">Busiest day:</text>
+<text x="475" y="162" class="v" text-anchor="end">59 on Oct 03</text>
+<text x="25" y="196" class="s">This year only. We don't talk about last year.</text>
+</svg>

@@ -38,8 +38,15 @@ jobs:
           mv README.new README.md
           rm block.md
 
+      - name: Build this-year stats card
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+        run: python3 .github/scripts/year_card.py
+
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git diff --quiet README.md || (git commit -am "Update yearly stats" && git push)
+          git add README.md assets/year-stats.svg
+          git diff --cached --quiet || (git commit -m "Update yearly stats" && git push)
